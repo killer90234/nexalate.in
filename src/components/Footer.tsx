@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import { FaWhatsapp } from "react-icons/fa";
+import Custom78 from "../assets/whatsapp.png";
+
+import { Facebook, Twitter, Linkedin, Instagram, MessageCircle} from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -36,16 +39,22 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Connect With Us</h4>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white">
+              {/* <a href="#" className="text-gray-400 hover:text-white">
                 <Facebook className="h-6 w-6" />
               </a>
               <a href="#" className="text-gray-400 hover:text-white">
                 <Twitter className="h-6 w-6" />
+              </a> */}
+              {/* <a href="#" className="text-gray-400 hover:text-white text-xl h-6 w-6">
+  <FaWhatsapp />
+</a> */}
+ <a href="https://wa.me/919426930638" className="text-gray-400 hover:text-white">
+                <MessageCircle className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white">
+              <a href="https://www.linkedin.com/in/nexalate-in" className="text-gray-400 hover:text-white">
                 <Linkedin className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white">
+              <a href="https://www.instagram.com/nexalate.in/" className="text-gray-400 hover:text-white">
                 <Instagram className="h-6 w-6" />
               </a>
             </div>

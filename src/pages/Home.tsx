@@ -8,7 +8,6 @@ export default function Home() {
     "Custom Software Development",
     "Web Application Development",
     "Mobile App Development",
-    "Cloud Solutions",
     "IT Infrastructure",
     "Cybersecurity Services",
     "Hardware AMC",

@@ -72,7 +72,7 @@ export default function Contact() {
               </div>
               <div className="flex items-center space-x-4">
                 <Phone className="h-6 w-6 text-blue-500" />
-                <span className="text-gray-300">+91 9426930638</span>
+                <span className="text-gray-300">+91 9427892372</span>
               </div>
             </div>
           </motion.div>

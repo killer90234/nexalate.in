@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import Custom from '../assets/hardware.png';
 import Custom1 from '../assets/software.png';
 import { Monitor, Code, FileCode, Shield, Server, Network, Cpu, Wrench, PenTool as Tool, Cloud, Database, Phone } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function Services() {
   const services = [
@@ -50,17 +51,17 @@ export default function Services() {
         "Security Training"
       ]
     },
-    {
-      icon: <Cloud className="h-10 w-10" />,
-      title: 'Cloud Solutions',
-      desc: "Comprehensive cloud services to help businesses leverage the power of cloud computing for enhanced scalability and efficiency.",
-      features: [
-        "Cloud Migration",
-        "Cloud Architecture",
-        "Cloud Security",
-        "Performance Optimization"
-      ]
-    },
+    // {
+    //   icon: <Cloud className="h-10 w-10" />,
+    //   title: 'Cloud Solutions',
+    //   desc: "Comprehensive cloud services to help businesses leverage the power of cloud computing for enhanced scalability and efficiency.",
+    //   features: [
+    //     "Cloud Migration",
+    //     "Cloud Architecture",
+    //     "Cloud Security",
+    //     "Performance Optimization"
+    //   ]
+    // },
     {
       icon: <Database className="h-10 w-10" />,
       title: 'Database Services',
@@ -233,13 +234,17 @@ export default function Services() {
             <p className="text-gray-400 text-lg mb-8">
               Let's discuss how our services can help transform your business
             </p>
+              <Link to="/contact">
             <motion.button
+            
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-blue-500 text-white px-8 py-4 rounded-full font-semibold hover:bg-blue-600 transition-colors"
             >
               Contact Us
             </motion.button>
+            </Link>
+            
           </motion.div>
         </div>
       </section>
