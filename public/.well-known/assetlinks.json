@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.example.wpdeep",
+    "sha256_cert_fingerprints": [
+      "99:C2:0B:67:E0:8E:EE:BB:3D:47:46:8A:68:2F:D9:53:03:53:75:F5:01:B4:CC:9E:A9:FE:34:5B:93:44:3F:75"
+    ]
+  }
+}]
